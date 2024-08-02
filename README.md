@@ -83,5 +83,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 For questions or inquiries, contact:
 
-- GitHub: [RishiMaddi1](https://github.com/RishiMaddi1)
 - Email: [maddi.rishi2468@gmail.com](mailto:maddi.rishi2468@gmail.com)
