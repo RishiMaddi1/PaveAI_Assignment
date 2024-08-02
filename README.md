@@ -34,7 +34,9 @@ Ensure you have the following installed:
 ## Folder Structure
 lib/: Contains the main application code.
 main.dart: Entry point of the application, includes the main UI and logic.
-assets/: Contains image files used in the app. Ensure that paths to these images in main.dart are correctly set.
+
+
+Contains image files used in the app. Ensure that paths to these images in main.dart are correctly set.
 Configuration
 Update image paths in main.dart according to the images available in the assets/ directory.
 Contributing
