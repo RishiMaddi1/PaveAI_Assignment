@@ -2,7 +2,7 @@
 
 Here is a demo video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vo8sRVreino?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![Demo Video](https://img.youtube.com/vi/vo8sRVreino/0.jpg)](https://www.youtube.com/watch?v=vo8sRVreino)
 
 ## Description
 
