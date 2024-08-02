@@ -1,9 +1,8 @@
+# Pave AI Assignment
 
+Here is a demo video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vo8sRVreino?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
-# Pave AI Assignment
 
 ## Description
 
@@ -27,39 +26,62 @@ Ensure you have the following installed:
 ## Setup and Installation
 
 1. **Clone the Repository**
-   git clone https://github.com/RishiMaddi1/Pave_ai_assignment.git
+
+    ```sh
+    git clone https://github.com/RishiMaddi1/Pave_ai_assignment.git
+    ```
 
 2. **Navigate to the Project Directory**
-   cd Pave_ai_assignment
+
+    ```sh
+    cd Pave_ai_assignment
+    ```
+
 3. **Install Dependencies**
-   flutter pub get
+
+    ```sh
+    flutter pub get
+    ```
+
 4. **Run the Application**
-   flutter run
+
+    ```sh
+    flutter run
+    ```
 
 ## Folder Structure
-lib/: Contains the main application code.
-main.dart: Entry point of the application, includes the main UI and logic.
 
+- `lib/`: Contains the main application code.
+- `main.dart`: Entry point of the application, includes the main UI and logic.
 
-Contains image files used in the app. Ensure that paths to these images in main.dart are correctly set.
-Configuration
-Update image paths in main.dart according to the images available in the assets/ directory.
-Contributing
+Contains image files used in the app. Ensure that paths to these images in `main.dart` are correctly set.
+
+## Configuration
+
+Update image paths in `main.dart` according to the images available in the `assets/` directory.
+
+## Contributing
+
 To contribute to this project:
 
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Commit your changes.
-Push to your branch.
-Open a pull request.
-License
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes.
+4. Push to your branch.
+5. Open a pull request.
+
+## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
-TimelineTile - Used for creating timeline views.
-Animated Text Kit - Used for animated text effects.
-Contact
+
+- `TimelineTile` - Used for creating timeline views.
+- `Animated Text Kit` - Used for animated text effects.
+
+## Contact
+
 For questions or inquiries, contact:
 
-GitHub: RishiMaddi1
-Email: maddi.rishi2468@gmailcom
+- GitHub: [RishiMaddi1](https://github.com/RishiMaddi1)
+- Email: [maddi.rishi2468@gmail.com](mailto:maddi.rishi2468@gmail.com)
