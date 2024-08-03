@@ -31,9 +31,13 @@ import 'package:timeline_tile/timeline_tile.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 ```
 Import Statements
+
 flutter/material.dart: Provides Flutter's material design components.
+
 timeline_tile/timeline_tile.dart: Used for creating timeline widgets.
+
 animated_text_kit/animated_text_kit.dart: Used for animated text widgets.
+
 
 Main Function
 
@@ -62,11 +66,17 @@ class MyApp extends StatelessWidget {
 }
 ```
 MyApp: A stateless widget that represents the whole application.
+
 MaterialApp: A convenience widget that wraps several widgets that are commonly required for material design applications.
+
 debugShowCheckedModeBanner: Removes the debug banner.
+
 title: The title of the application.
+
 theme: Defines the application's theme.
+
 home: The default route of the app, here it is MyHomePage.
+
 MyHomePage Widget
 
 ```sh
@@ -165,20 +175,35 @@ class MyHomePage extends StatelessWidget {
 ```
 
 MyHomePage: A stateless widget that represents the home screen.
+
 Scaffold: Implements the basic material design visual layout structure.
+
 backgroundColor: Sets the background color of the scaffold.
+
 SingleChildScrollView: A scroll view that scrolls in a single direction.
+
 padding: Sets the padding for the scroll view.
+
 Column: A widget that displays its children in a vertical array.
+
 crossAxisAlignment: Aligns children horizontally.
+
 Center: Centers its child within itself.
+
 AnimatedTextKit: A package for animated text widgets.
+
 TypewriterAnimatedText: Creates a typewriter animation effect.
+
 TextStyle: Defines the text style.
+
 SizedBox: Adds space between widgets.
+
 Row: A widget that displays its children in a horizontal array.
+
 mainAxisAlignment: Aligns children vertically.
+
 _buildImageTextCard: A custom function that returns a widget.
+
 Custom Widget: ImageTextCard
 
 ```sh
@@ -241,13 +266,21 @@ Widget _buildImageTextCard(String imagePath, String title, String description) {
 }
 ```
 _buildImageTextCard: A custom function that returns a styled widget displaying an image, title, and description.
+
 Expanded: Expands the widget to fill the available space.
+
 Container: A convenience widget that combines common painting, positioning, and sizing widgets.
+
 margin: Adds space around the container.
+
 BoxDecoration: Adds decoration to the container, like color, border radius, and box shadow.
+
 ClipRRect: Clips its child using a rounded rectangle.
+
 Image.asset: Loads an image from the asset bundle.
+
 Padding: Adds padding to its child.
+
 Custom Widget: TimelineTile
 
 ```sh
@@ -313,16 +346,27 @@ Widget _buildTimelineTile(String indicatorText, String title, String description
 ```
 
 _buildTimelineTile: A custom function that returns a TimelineTile widget.
+
 TimelineTile: A widget from the timeline_tile package that displays a timeline.
+
 isFirst: Boolean to indicate if it is the first tile in the timeline.
+
 isLast: Boolean to indicate if it is the last tile in the timeline.
+
 IndicatorStyle: Customizes the appearance of the timeline indicator.
+
 endChild: The widget displayed at the end of the timeline tile.
+
 Padding: Adds padding to the endChild.
+
 IntrinsicHeight: Makes its child have the same height as the largest child.
+
 Column: Displays its children in a vertical array.
+
 crossAxisAlignment: Aligns children horizontally.
+
 Flexible: Expands the child to fill the available space.
+
 Text: Displays the text.
 
 
